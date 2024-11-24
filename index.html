@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags para otimização de SEO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Eduardo Leça" />
+    <meta name="generator" content="VSCode" />
+    <meta name="keywords" content="HTML5,CSS3,JS,BOOTSTRAP" />
+    <meta name="description" content="Initial Page - Sign Up" />
+    <meta name="aplication-name" content="Online Dev E-commerce" />
+    <!-- Link FontAwesome -->
+    <!-- Link BootStrap (CSS & JS) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--Título da Página -->
+    <title>Sign Up</title>
+    <!-- Link do documento CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mobileIndex.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="mainContainer">
+        <!-- Logo incorporado numa frase pensada para chamar atençao e provocar sentimentos/sensaçoes  -->
+        <div class="logoContainer">
+          <h1>
+            QUEM NÃO
+
+            <img src="Images/logo3.1.svg" alt="Logo" />
+
+            , NÃO TEME.
+          </h1>
+        </div>
+        <div class="row main-content w-100 mainDiv">
+          <!-- div do texto + form  -->
+          <div
+            class="col-md-5 d-flex flex-column justify-content-center textDiv"
+          >
+            <h2>
+              Não deixe para Amanhã, <br />
+              o que pode aprender Hoje.
+            </h2>
+            <br />
+            <h3>
+              100% Online <br />
+              Onde e Quando Quiser!
+            </h3>
+          </div>
+          <div class="col-md-5 form">
+            <!-- Formulário de Cadastro Inicial -->
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Seu nome"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="seu@email.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Senha</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="********"
+                />
+              </div>
+              <button
+                type="submit"
+                onclick="alert('Seja Bem-vindo a sua jornada como Dev!')"
+                class="btn btn-dark w-100"
+              >
+                <a
+                  href="Home.html"
+                  style="text-decoration: none; color: #fafafa"
+                  >Inscrever-me</a
+                >
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

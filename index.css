@@ -1,0 +1,58 @@
+body {
+  font-family: "__GeistMono_c1e5c9", ui-monospace, SFMono-Regular, Roboto Mono,
+    Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(240, 10%, 3.9%);
+  color: hsl(0, 0%, 98%);
+  font-weight: 800;
+}
+
+main {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.mainContainer {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoContainer {
+  display: flex !important;
+  align-items: flex-start !important;
+  flex-direction: column;
+  height: 360px;
+  padding-top: -100px;
+}
+
+.logoContainer img {
+  width: 250px;
+  height: auto;
+}
+
+.textDiv {
+  width: 550px;
+}
+
+.form {
+  width: 500px;
+}
+
+.form-control:focus {
+  border-color: #A1A1AA;
+  box-shadow: 0 0 0 0.1rem #A1A1AA;
+  outline: none;
+}

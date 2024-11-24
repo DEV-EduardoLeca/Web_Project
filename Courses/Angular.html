@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags para otimização de SEO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Eduardo Leça" />
+    <meta name="generator" content="VSCode" />
+    <meta name="keywords" content="HTML5,CSS3,JS,BOOTSTRAP" />
+    <meta name="description" content="Angular Page - Angular" />
+    <meta name="aplication-name" content="Online Dev E-commerce" />
+    <!-- Link FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Link BootStrap (CSS & JS) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!--Fav Icon -->
+
+    <link rel="shortcut icon" href="/Images/logo3.1.svg" type="image/x-icon" />
+    <!--Título da Página -->
+    <title>Angular Page</title>
+    <!-- Link do documento CSS -->
+    <link rel="stylesheet" href="individualcourses.css" />
+    <link rel="stylesheet" href="mobileIndividualCourses.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Ícone -->
+        <a
+          href="../Home.html"
+          class="navbar-brand d-flex align-items-center justify-content-between"
+        >
+          <img
+            src="../Images/logo3.1.svg"
+            style="width: 100px"
+            height="auto"
+            alt="Ícone"
+            class="img-fluid me-2"
+          />
+        </a>
+        <!-- Links de Navegaçao -->
+        <div
+          class="text-center d-flex align-items-center justify-content-center"
+        >
+          <a href="../Home.html" class="ms-5 linkFormater">Home</a>
+          <a href="../Courses.html" class="ms-5 linkFormater">Cursos</a>
+          <a href="../About.html" class="ms-5 linkFormater">Sobre</a>
+          <a href="../Contact.html" class="ms-5 linkFormater">Contacto</a>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <!-- Main content -->
+    <main>
+      <div class="mainContainer">
+        <div id="course">
+          <div id="courseLogo">
+            <img src="/Images/angular.svg" alt="Algoritmia Logo" />
+          </div>
+          <div id="courseTitle">
+            <h1>Curso de Angular</h1>
+          </div>
+        </div>
+        <div class="courseText">
+          <h2>O Poder do Angular no Desenvolvimento Web</h2>
+          <br />
+          <p>
+            Angular é uma plataforma poderosa para criar aplicações web dinâmicas e escaláveis. Este curso ensina a configurar o ambiente, compreender a arquitetura MVC e iniciar projetos profissionais com facilidade.
+          </p>
+          <br />
+          <h2>Componentes e Integrações no Angular</h2>
+          <br />
+          <p>
+            Aprenda a construir componentes modulares e reutilizáveis, trabalhar com diretivas e implementar a navegação SPA com o Angular Router. Também explore como integrar APIs e gerir estados de aplicação.
+          </p>
+          <br />
+          <h2>Testes e Otimização</h2>
+          <br />
+          <p>
+            O curso aborda práticas de testes automatizados para garantir a qualidade do código, bem como técnicas de otimização para melhorar o desempenho e a manutenção das aplicações.
+          </p>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+              Introdução ao Angular
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <input type="checkbox" />
+                O que é Angular e suas vantagens no desenvolvimento web;
+                <br />
+                <br />
+                <input type="checkbox" />
+                Diferença entre AngularJS e Angular moderno;
+                <br />
+                <br />
+                <input type="checkbox" />
+                Tipos de algoritmos e aplicações no dia a dia.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+              Componentes e Templates
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <input type="checkbox" />
+                Criando componentes reutilizáveis;
+                <br />
+                <br />
+                <input type="checkbox" />
+                Ligando templates com dados através do data binding;
+                <br />
+                <br />
+                <input type="checkbox" />
+                Utilização de diretivas estruturais e atributivas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+              Serviços e Integração
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <input type="checkbox" />
+                Injeção de dependência no Angular;
+                <br />
+                <br />
+                <input type="checkbox" />
+                Comunicando-se com APIs REST usando HTTPClient;
+                <br />
+                <br />
+                <input type="checkbox" />
+                Gerenciamento de estado com RxJS.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Patrocínios -->
+
+        <h1 class="patrociniosText">Patrocínios</h1>
+        <section class="patrocinios">
+          <div class="patrociniosIMG">
+            <img id="cesae" src="/Images/cesae.png" alt="CESAE DIGITALS Logo" />
+            <img src="/Images/iefp.png" alt="IEFP Logo" />
+            <img src="/Images/google.png" alt="Google Logo" />
+            <img src="/Images/microsoft.png" alt="Microsoft Logo" />
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+          <div>
+            <div style="display: flex">
+              <h3>QUEM NÃO</h3>
+              <img src="/Images/logo3.1.svg" id="footerImg" alt="Dev logo" />
+              <h3>,</h3>
+            </div>
+            <h3>NÃO TEME !</h3>
+          </div>
+          <div style="text-align: center">
+            <h2>Novidades da Plataforma</h2>
+            <br />
+            <p>Ainda em Desenvolvimento.</p>
+          </div>
+          <div style="text-align: center">
+            <h2>Versão</h2>
+            <p>0.0.1</p>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <!-- Link do bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
